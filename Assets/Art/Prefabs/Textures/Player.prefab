@@ -31251,6 +31251,7 @@ PrefabInstance:
       addedObject: {fileID: 8210378941319581849}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bdc399d16977854c90a65ab31353c5a, type: 3}
       insertIndex: -1
+<<<<<<< Updated upstream:Assets/Art/Prefabs/Player.prefab
       addedObject: {fileID: 2278118612620147487}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bdc399d16977854c90a65ab31353c5a, type: 3}
       insertIndex: -1
@@ -31269,6 +31270,14 @@ PrefabInstance:
       addedObject: {fileID: 7497907113619425539}
   m_SourcePrefab: {fileID: 100100000, guid: 1bdc399d16977854c90a65ab31353c5a, type: 3}
 --- !u!4 &578124540174823067 stripped
+=======
+      addedObject: {fileID: 4347640708503786908}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 218b6d074844a2148b3e12c74c3822be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4819302971440008888}
+  m_SourcePrefab: {fileID: 100100000, guid: 218b6d074844a2148b3e12c74c3822be, type: 3}
+--- !u!4 &173917044500291526 stripped
+>>>>>>> Stashed changes:Assets/Art/Prefabs/Textures/Player.prefab
 Transform:
   m_CorrespondingSourceObject: {fileID: -8002889245158856981, guid: 1bdc399d16977854c90a65ab31353c5a, type: 3}
   m_PrefabInstance: {fileID: 1798607050382329968}
@@ -31367,6 +31376,7 @@ MonoBehaviour:
   m_Script: {fileID: 1577469696, guid: b772df04c61f3664aba7e879eefb8013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream:Assets/Art/Prefabs/Player.prefab
   whoosh_sound: {fileID: 8300000, guid: dbead25670f8d694ead7957c885d967f, type: 3}
   fall_sound: {fileID: 8300000, guid: b2d5b4ff53995ca459c0d7b7cbc50c36, type: 3}
   ground_hit_sound: {fileID: 8300000, guid: 5a9526df7eda1054d89aa8ae52404392, type: 3}
@@ -31374,6 +31384,15 @@ MonoBehaviour:
   Kick_Sound: {fileID: 8300000, guid: 93d0a18c02941f74a88f597780de0a41, type: 3}
   get_hit: {fileID: 8300000, guid: b28958ed9dfccce4387ee1be780afcbd, type: 3}
 --- !u!114 &6998123767861408336
+=======
+  whoosh_sound: {fileID: 0}
+  fall_sound: {fileID: 0}
+  ground_hit_sound: {fileID: 0}
+  dead_sound: {fileID: 0}
+  Kick_Sound: {fileID: 0}
+  get_hit: {fileID: 0}
+--- !u!114 &6769731280299741981
+>>>>>>> Stashed changes:Assets/Art/Prefabs/Textures/Player.prefab
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -31450,6 +31469,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   radius: 0.3
+<<<<<<< Updated upstream:Assets/Art/Prefabs/Player.prefab
   damage: 0
   hitCount: 0
   isEnemyBlock: 0
@@ -31463,6 +31483,29 @@ Animator:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+=======
+  damage: 250
+  TanganKanan: {fileID: 3787360771676898404}
+  TanganKiri: {fileID: 643958303048060306}
+  KakiKanan: {fileID: 8167445688818841416}
+  KakiKiri: {fileID: 4762858555774486831}
+--- !u!114 &4819302971440008888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703315374036735139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ad7637ed6417c4abe364a0afb5e19a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &8152323830366678588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5658604927271552974, guid: 218b6d074844a2148b3e12c74c3822be, type: 3}
+  m_PrefabInstance: {fileID: 4586274551637142002}
+>>>>>>> Stashed changes:Assets/Art/Prefabs/Textures/Player.prefab
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455936209862817057}
   m_Enabled: 1
